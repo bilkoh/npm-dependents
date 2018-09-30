@@ -3,7 +3,7 @@
 # npm-depedents - A script to list all packages which depend on a specific node
 # package, a la https://www.npmjs.com/browse/depended/express
 # -----------------------------------------------------------------------------
-# bil.koh.sec@gmail.com / @bilkohsec 
+# bil.koh.sec@gmail.com / @bilkohsec / https://github.com/bilkoh/npm-dependents
 
 # This is what I use when looking to investigate the ramifications of a 
 # vulnerable package in node.
