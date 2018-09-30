@@ -1,0 +1,15 @@
+# -----------------------------------------------------------------------------
+# npm-depedents - A script to list all packages which depend on a specific node
+# package, a la https://www.npmjs.com/browse/depended/express
+# -----------------------------------------------------------------------------
+# bil.koh.sec@gmail.com / @bilkohsec / https://github.com/bilkoh/npm-dependents
+
+# This is what I use when looking to investigate the ramifications of a 
+# vulnerable package in node.
+# I couldn't figure out how to do so via `npm view`, so I wrote this.
+# There's probably a better way, but whatever.
+#
+# Here's the usage for finding out which packages use mem, whose <4.0.0 version
+# is vulnerable to DoS (see: https://cwe.mitre.org/data/definitions/400.html):
+#
+# ./npm-depdents.sh mem
